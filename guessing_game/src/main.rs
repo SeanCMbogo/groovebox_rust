@@ -4,7 +4,7 @@ fn main() {
     println!("Guess the number!");
     println!("Input your guess.");
 
-    let apples = 5; // immutable
+    // let apples = 5; // immutable
     let mut guess = String::new(); // mutable
 
     io::stdin()
